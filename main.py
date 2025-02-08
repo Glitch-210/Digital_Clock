@@ -12,7 +12,7 @@ def present_time():
     digi_clock.config(text=dis_time)
     digi_clock.after(200,present_time)
 
-digi_clock = Label(root, font=("arial",150),bg="Black",fg="white")
+digi_clock = Label(root, font=("ROG Fonts",80),bg="Black",fg="white")
 digi_clock.pack()
 
 present_time()
